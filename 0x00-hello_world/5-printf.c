@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 *main-program entry point
 *
 *return; 0 if no errors, non zero if errors
