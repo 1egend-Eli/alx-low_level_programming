@@ -1,5 +1,6 @@
-#ifndef main_h
-#define main_h
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
 extern int _putchar(char c);
 extern void print_alphabet(void);
 extern void print_alphabet_x10(void);
@@ -13,4 +14,5 @@ extern void times_table(void);
 extern int add(int, int);
 extern int print_to_98(int n);
 extern void print_times_table(int n);
+
 #endif
