@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
 * _strcat - cancatenates two strings
 * @dest: destination string
@@ -12,7 +13,7 @@ char *_strcat(char *dest, char *src)
 {
 	int dlen = 0, i;
 
-	while (dest[dest1])
+	while (dest[dlen])
 	{
 		dlen++;
 	}
